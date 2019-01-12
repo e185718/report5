@@ -56,7 +56,7 @@ public class LivingThing {
 
     /**
      * opponentへ攻撃するメソッド。
-     * @param opponent 攻撃対象
+     * @param opponent 攻撃相手
      */
     public void attack(LivingThing opponent){
         if(!dead) {
